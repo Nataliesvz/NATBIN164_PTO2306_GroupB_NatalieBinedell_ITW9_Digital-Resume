@@ -1,0 +1,258 @@
+
+body {
+    width: 100%;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    padding: 0.5rem;
+}
+
+.purple {
+    background-color: purple;
+    background-position: center ;
+    padding: 1.5rem;
+}
+
+
+.hero-text {
+    position: relative;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white ;
+    padding: 5px;
+}
+
+   
+h2 {
+    color: rgb(32, 107, 117);
+    font-size: 32px;
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 50px;
+    
+}
+
+h3 {
+    color:rgb(3, 20, 20) ;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p { 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(117, 116, 111) ;
+    overflow: auto;
+    position: fixed;
+    
+  }
+  .navbar a {
+    float:left;
+    padding: 2px;
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 30%; 
+    text-align: center;
+  }
+  .navbar a:hover {
+    background-color:black ;
+  }
+  
+
+#back-to-top> button {
+    position: fixed;
+    right: 30px;
+    bottom: 25px;
+    background-color: rgb(26, 104, 104);
+    border-radius: 50%;
+    border: solid 1px white;
+    width: 50px;
+    height:50px;
+    color: white;
+}
+
+input[type=text],input[type=email], input[type=password]{ 
+    width: 30%;
+    padding: 5px;  
+    margin-left: 20px;  
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+
+}
+
+select {
+    width: auto;
+    height: auto;
+    padding: 2px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    margin-left: 20px;
+    padding: 2px;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.submit {
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.textarea{
+    margin-left: 20px;
+}
+
+
+#facebook-icon {
+    border: 1px solid #ddd;
+    display: block;
+    border-radius: 50%;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+ 
+}
+
+@keyframes facebook-animation {
+    0%   {transform: rotate(0deg); }
+    100% {transform: rotate(360deg); background-color:hsl(187, 79%, 32%);}
+}
+
+.facebook-rotate:hover {
+    background-color: white;
+    animation-name: facebook-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+
+
+#instagram-icon {
+    border: 1px solid #ddd;
+    display: block;
+    border-radius: 50%;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+ 
+}
+
+@keyframes instagram-animation {
+    0%   {transform: rotate(0deg); }
+    100% {transform: rotate(360deg); background-color:hsl(187, 79%, 32%);}
+}
+
+.instagram-rotate:hover {
+    background-color: white;
+    animation-name: instagram-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+
+
+#github-icon {
+    border: 1px solid #ddd;
+    display: block;
+    border-radius: 50%;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+ 
+}
+
+@keyframes github-animation {
+    0%   {transform: rotate(0deg); }
+    100% {transform: rotate(360deg); background-color:hsl(187, 79%, 32%);}
+}
+
+.github-rotate:hover {
+    background-color: white;
+    animation-name: github-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+
+
+#linkedin-icon {
+    border: 1px solid #ddd;
+    display: block;
+    border-radius: 50%;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+ 
+}
+
+@keyframes linkedin-animation {
+    0%   {transform: rotate(0deg); }
+    100% {transform: rotate(360deg); background-color: hsl(187, 79%, 32%);}
+}
+
+.linkedin-rotate:hover {
+    background-color: white;
+    animation-name: linkedin-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+
+
+
+
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://t3.ftcdn.net/jpg/05/78/94/94/360_F_578949486_IUFDkbOIhPmDkiKwCNvG7oOAtP9sNvO6.jpg" );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    text-align: center;
+    background-color: rgb(12, 110, 134) ;
+    width: 80%;
+   
+}
+
+img {
+    margin-left: 730px;
+    margin-top: 100px;
+    border-color: white;
+    border-style: double;
+    border-width: 20px;
+}
