@@ -7,11 +7,31 @@ body {
     padding: 0.5rem;
 }
 
-.purple {
-    background-color: purple;
-    background-position: center ;
-    padding: 1.5rem;
+header {
+    display: grid;
+    grid-template-columns: 0 75 25;
+    text-align:right;
 }
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://t3.ftcdn.net/jpg/05/78/94/94/360_F_578949486_IUFDkbOIhPmDkiKwCNvG7oOAtP9sNvO6.jpg" );
+    display: grid;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    text-align: center;
+    background-color: rgb(32, 100, 117) ;
+    width: 80%;
+   
+}
+
+img {
+    border-color: white;
+    border-style: double;
+    border-width: 20px;
+}
+
 
 
 .hero-text {
@@ -27,7 +47,8 @@ h2 {
     color: rgb(32, 107, 117);
     font-size: 32px;
     text-decoration: underline;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 50px;
     
@@ -36,17 +57,17 @@ h2 {
 h3 {
     color:rgb(3, 20, 20) ;
     font-size: 24px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 20px;
     margin-right: 50px;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 30px;
 }
 
 p { 
-    margin-top: 20px;
+   margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 50px;
@@ -63,17 +84,17 @@ ul {
     background-color: rgb(117, 116, 111) ;
     overflow: auto;
     position: fixed;
+    display: flex;
+    justify-content: space-evenly;
     
   }
   .navbar a {
-    float:left;
-    padding: 2px;
+    padding: 4px;
     color: white;
-    margin-right: 15px;
     text-decoration: none;
     font-size: 16px;
-    width: 30%; 
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .navbar a:hover {
     background-color:black ;
@@ -108,17 +129,15 @@ select {
     height: auto;
     padding: 2px;
     margin-left: 20px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: medium;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 label {
-    display: inline-block;
-    width: 100px;
-    text-align: left;
     margin-left: 20px;
-    padding: 2px;
-    font-size: small;
+    font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -138,8 +157,8 @@ label {
     display: block;
     border-radius: 50%;
     padding: 5px;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
  
 }
 
@@ -163,8 +182,8 @@ label {
     display: block;
     border-radius: 50%;
     padding: 5px;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
  
 }
 
@@ -188,8 +207,8 @@ label {
     display: block;
     border-radius: 50%;
     padding: 5px;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
  
 }
 
@@ -213,8 +232,8 @@ label {
     display: block;
     border-radius: 50%;
     padding: 5px;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
  
 }
 
@@ -233,26 +252,8 @@ label {
 }
 
 
-
-
-
-
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://t3.ftcdn.net/jpg/05/78/94/94/360_F_578949486_IUFDkbOIhPmDkiKwCNvG7oOAtP9sNvO6.jpg" );
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    position: relative;
-    text-align: center;
-    background-color: rgb(12, 110, 134) ;
-    width: 80%;
-   
-}
-
-img {
-    margin-left: 730px;
-    margin-top: 100px;
-    border-color: white;
-    border-style: double;
-    border-width: 20px;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
 }
