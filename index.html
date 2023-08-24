@@ -8,36 +8,33 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
-    
-	<header> 
-		<div id="top"> </div>
+    <body> 
+		<header> 
+			<div id="top"> </div>
 
-            <div class="hero-image">
+			<div class="hero-image">
+				<div class="hero-text"> 
+					<h1>Natalie Binedell</h1> 
+					<p>Dog Groomer, Canine Body Worker & Hydrotherapist.</p>
+				</div> 
+				
+				<div class="hero-photo">
+					<picture>
+						<source media="(max-width: 650px)" srcset="Images/LandscapeProfile.jpg">
+						<source media="(max-width: 900px)" srcset="images/PortraitProfile.jpg">
+						<img src="images/Natalie.jpg" class="profile-image" >
+					</picture>
+				</div>
+			</div>
+		</header>
 
-                <picture class="profile-image">
-                    <source media="(max-width: 650px)" srcset="Images/PortraitProfile.jpg">
-                    <source media="(max-width: 900px)" srcset="Images/LandscapeProfile.jpg">
-                    <img src="images/Natalie.jpg" style="border-radius: 50%;" >
-                </picture>
+		<nav class="navbar">
+			<a href="#Education">Education</a>
+			<a href="#Experience">Experience</a> 
+			<a href="#Skills">Skills</a>
+			<a href="#Contact"> Contact</a> 
+		</nav>
 
-				<div class="hero-text" > 
-				<h1>Natalie Binedell</h1> 
-				<p>Dog Groomer, Canine Body Worker & Hydrotherapist.</p>
-			</div> 
-
-            <div>
-                <nav class="navbar">
-                        <a href="#Education">Education </a> 
-                        <a href="#Skills">Skills </a>
-                        <a href="#Contact"> Contact </a> 
-                </nav>
-            </div>
-
-            </div>
-		</div>
-	</header>
-
- 
 
 	<a id="back-to-top" href="#top">
 		<button >
@@ -45,61 +42,93 @@
 		</button>
 	</a>
 
-	<body>
-	
-	<section>
-		<article>
-		
-				<h2 id="Education">Education</h2>
-				<h3> Diploma - Business Management </h3>
-				<p> Internationally recognised BTEC Diploma in Business Management and Entrepreneurship. (2010 - Prestige Academy) </p>
-                
-                <h3> Certificate -  Dog Grooming </h3>
-                <p> Dog Grooming Certification. (2010 - South African College of Dog Grooming) </p>
+		<section>
+			<article>
+				<div class="content-container">
+					<div id="Education">
+						<h2>Education</h2>
+						<h3> Diploma - Business Management </h3>
+						<p> Internationally recognised BTEC Diploma in Business Management and Entrepreneurship. (2010 - Prestige Academy) </p>
+						
+						<h3> Certificate -  Dog Grooming </h3>
+						<p> Dog Grooming Certification. (2010 - South African College of Dog Grooming) </p>
 
-                <h3> Certificate - Hydrotherapy </h3>
-				 <p> Small Animal Hydrotherapy Certification (2015 - Greyfriers UK) </p>
-                 
-                 <h3> Certificate - Canine Body Work</h3>
-                 <P> Canine Body Worker Certification (2019 - Equicanis) </P>
+						<h3> Certificate - Hydrotherapy </h3>
+						 <p> Small Animal Hydrotherapy Certification (2015 - Greyfriers UK) </p>
+						 
+						 <h3> Certificate - Canine Body Work</h3>
+						 <P> Canine Body Worker Certification (2019 - Equicanis) </P>
 
-                 <h3> In Process - Software Development Course </h3>
-                 <p> (2023 - Codespace Academy) </p>
+						 <h3> In Process - Software Development Course </h3>
+						 <p> (2023 - Codespace Academy) </p>
+					 </div>
 
-				<h2 id="Experience">Experience</h2>
-				<h3> Business Owner  1</h3>
-				<p> Managing, Operating & Expanding of Business since 2010. From one mobile dog grooming business to 4 grooming parlours with a added small section for pet products and accessories.  </p>
+					 
+					<div id="Experience">
+						<h2>Experience</h2>
+						<h3> Business Owner </h3>
+						<p> Managing, Operating & Expanding of Business since 2010. Starting out with one mobile grooming unit and expanding to two mobile grooming units, two parlours and two pet stores.</p>
+					</div>
 
-				<h2 id="Skills">Skills</h2>
-				<ul> 
-					<li>Dog Grooming </li>
-					<li>Canine Body Work</li>
-					<li>Canine Hydrotherapy</li>
-					<li> Canine Handling </li>
-                    <li> Pet First Aid </li>
-                    <li> Sales </li>
-                    <li> Inventory Management </li>
-                    <li> Human Resource Management </li>
-                    <li> Customer Service Relations</li>
-                    <li> Office Administration </li>
-                    <li> Business Management</li>
-                    <li> Pastel & Quickbooks Accounting</li>
-                    <li> Microsoft Office Proficiency </li>
-                    <li>Basic Knowledge of HTML ,CSS, Scratch </li>
-
-
-				</ul>
-			
-		</article>
-	</section>
-	
-	</body>
+					<div id="Skills">
+						<h2>Skills</h2>
+						<ul> 
+							<li>Dog Grooming </li>
+							<li>Canine Body Work</li>
+							<li>Canine Hydrotherapy</li>
+							<li> Canine Handling </li>
+							<li> Pet First Aid </li>
+							<li> Sales </li>
+							<li> Inventory Management </li>
+							<li> Human Resource Management </li>
+							<li> Customer Service Relations</li>
+							<li> Office Administration </li>
+							<li> Business Management</li>
+							<li> Pastel & Quickbooks Accounting</li>
+							<li> Microsoft Office Proficiency </li>
+							<li> Fundamentals HTML ,CSS, Scratch </li>
+						</ul>
+					</div>
+				</div>
+			</article>
+		</section>
 
 	<footer>
-      
+		<div class="form-container">
+			<h2>Get in touch</h2>
+			<form action="https://formsubmit.co/nataliebinedell@gmail.com" method="POST">
+            
+            <label for="name">Name: </label> 
+            <br>
+			<input type="text" name="name" id="name" required>
+			<br>
+            <label for="email">Email: </label> 
+            <br>
+			<input type="email" name="email" id="email"  required>
+			<br>
+
+            <br>
+			<select name="_subject" id="subject"> 
+				<option value="Prospective Interview">  Prospective Interview</option>
+				<option value="Need more information" > Need more information </option>
+				<option value="Recruitment" > Recruitment</option>
+			</select>
+			<br>
+
+            <br>
+			<label for="details">Details:</label> 
+			<br>
+			<textarea class="textarea" id="about" name="details" rows="4" cols="50"></textarea>
+			<br>
+			<br>
+			<button type="submit" class="submit" > Send</button>
+		</div>
+		</form>
+
 		<h2 id="Contact">Contact</h2>
-        <p>Email: natalie_binedell@gmail.com </p>
-        <div class="grid-container"> 
+       	<p>Email: natalie_binedell@gmail.com </p>
+
+        	<div class="grid-container"> 
 				<a href="https://www.facebook.com/natalie.v.zyl" target="_blank">
 					<div>
 						<img src="images/Facebook-icon.png" alt="Facebook-Logo" id="facebook-icon" class="facebook-rotate">
@@ -125,37 +154,7 @@
                     </div>
 			    </a>
             </div>
-        
-        
-    
-        <h2>Get in touch</h2>
-		<form action="https://formsubmit.co/nataliebinedell@gmail.com" method="POST">
-            
-            <label for="name">Name: </label> 
-            <br>
-			<input type="text" name="name" id="name" required>
-			<br>
-            <label for="email">Email: </label> 
-            <br>
-			<input type="email" name="email" id="email"  required>
-			<br>
+		</footer>
 
-            <br>
-			<select name="_subject" id="subject"> 
-				<option value="Prospective Interview">  Prospective Interview</option>
-				<option value="Need more information" > Need more information </option>
-				<option value="Recruitment" > Recruitment</option>
-			</select>
-			<br>
-
-            <br>
-			<label for="details">Details:</label> 
-			<br>
-			<textarea class="textarea" id="about" name="details" rows="4" cols="50"></textarea>
-			<br>
-			<br>
-			<button type="submit" class="submit"> Send</button>
-		</form>
-	</footer>
-
+	</body>
 </html>
