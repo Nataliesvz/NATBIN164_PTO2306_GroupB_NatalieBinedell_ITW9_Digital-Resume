@@ -330,7 +330,7 @@ label {
    
  }
 }
-
+/*Mobile*/
 @media only screen and (max-width: 600px) {
 	.hero-image {
 		flex-direction: column-reverse;
@@ -391,6 +391,7 @@ label {
  }
 }
 
+/*Tablet*/
 @media only screen and (min-width: 600px) {
 	.hero-image {
 		flex-direction: column-reverse;
@@ -450,6 +451,80 @@ label {
     font-size: 18px;
  }
 }
+
+/*Laptop/Notebook*/
+@media only screen and (min-width: 900px) {
+	.hero-image {
+		flex-direction: column-reverse;
+		background-size: auto;
+	}
+	
+    .hero-image p {
+        padding:1rem ;
+    }
+	.profile-image {
+		border-width: 10px;
+ 
+	}
+
+	.hero-photo {
+		padding: 5px;
+        margin-top: 30px;
+        margin-bottom: 0;
+	}
+    
+    p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    label {
+        font-size: 22px;
+        
+    }
+   
+    input {
+    font-size: 20px;
+    margin-top: 8px;
+    padding: 2px;
+ }
+
+    select {
+    font-size: 20px;
+    margin-top: 5px;
+    width:30% ;
+ }
+
+ .textarea {
+    width: 70%;
+    margin-top: 15px;
+    padding: 2px; 
+  
+ }
+
+ button {
+    margin-bottom: 55px;
+    font-size: 22px;
+   
+ }
+
+ ul {
+    font-size: 20px;
+ }
+}
+
+
 
 
 
